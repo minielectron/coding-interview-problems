@@ -45,3 +45,4 @@ else:
 # pales, pale -> true
 # pale, bale -> true
 # pale, bae -> false
+# gale, bae -> false
