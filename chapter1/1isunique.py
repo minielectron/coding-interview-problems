@@ -1,4 +1,5 @@
-
+# Question: Implement an algorithm to determine if a string has all unique characters. What if you
+# cannot use additional data structures?
 # Solution 1: Using sorting this can take upto nlogn, depends on sorting.
 str1 = "random"
 chars = sorted(str1)
@@ -15,7 +16,7 @@ else:
     print("String is not unique")
 
 # Solution: Using map, this will take O(n) time complexity and O(n) space complexity,
-# where is length of input string, the space complexity will never cross 128 if unicode. 
+# where n is length of input string, the space complexity will never cross 128 if unicode. 
 # so it's contant and can be considred as O(1).
 
 str2 = "randomr"
